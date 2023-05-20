@@ -5,9 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind css</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="../dist/style.css" />
   </head>
   <body>
-    <p class="font-bold">hello</p>
+    <div class="px-2 md:px-10">
+      <div
+        class="border-b-2 border-[#ddd] flex flex-row justify-between items-center"
+      >
+        <span class="text-2xl font-dancing py-1 font-bold md:text-3xl">
+          Vtravel
+        </span>
+        <ul class="md:flex md:flex-row gap-8 py-[6px] hidden">
+          <li
+            class="ml-auto cursor-pointer py-1 align-middle text-lg h-full hover:text-[#b23a29] transition-all"
+          >
+            About us
+          </li>
+          <li
+            class="cursor-pointer py-1 align-middle text-lg h-full hover:text-[#b23a29] transition-all"
+          >
+            Contact
+          </li>
+          <li
+            class="cursor-pointer py-1 align-middle text-lg h-full hover:text-[#b23a29] transition-all"
+          >
+            Catalog
+          </li>
+          <li
+            class="px-10 border-l-2 border-[#aaa] text-lg cursor-pointer py-1 align-middle hover:text-[#b23a29] transition-all"
+          >
+            Sign Up
+          </li>
+        </ul>
+        <div class="cursor-pointer hover:opacity-50 md:hidden">
+          <div class="border-b-[4px] w-7 border-[#666] my-[3px]"></div>
+          <div class="border-b-[4px] w-7 border-[#666] my-[3px]"></div>
+          <div class="border-b-[4px] w-7 border-[#666] my-[3px]]"></div>
+        </div>
+      </div>
+      <div>
+        <h1
+          class="text-3xl py-2 sm:text-5xl sm:mb-6 md:text-7xl sm:pt-8 md:pb-12 text-center"
+        >
+          Things to do in Vietnam
+        </h1>
+        <div class="flex flex-col gap-4 md:flex-row lg:gap-20 md:gap-10">
+          <div class="basis-full lg:first-letter:h-[500px] lg:basis-2/5">
+            <img
+              class="object-cover h-full"
+              src="./assets/img/lantern1.jpg"
+              alt="lantern"
+            />
+          </div>
+          <div class="lg:basis-3/5 w-full flex flex-col justify-between">
+            <p class="text-[16px] mb-4 lg:w-1/2 sm:text-lg">
+              A long, narrow nation shaped like the letter S in Southeast Asia,
+              home to most of the country's people and provide fertile ground to
+              grow rice and many other crops...
+            </p>
+            <div class="md:flex md:flex-col lg:flex-row w-full">
+              <div class="basis-1/2 lg:pr-3">
+                <img class="object-cover" src="./assets/img/t1.jpg" alt="" />
+              </div>
+              <div class="basis-1/2 lg:pl-3 my-3 lg:my-0">
+                <img class="object-cover" src="./assets/img/t2.jpg" alt="" />
+              </div>
+            </div>
+            <a
+              href="#"
+              class="text-lg sm:text-2xl my-[4px] text-[#B23A29] relative"
+              >Book a tour
+              <span
+                before=""
+                class="inline-block w-[35px] sm:w-[70px] ml-[25px] border-b-2 border-[#b23a29] absolute top-1/2 before:content-[attr(before)] before:w-3 before:h-3 before:border-t-[3px] before:border-r-[3px] before:border-[#b23a29] before:absolute before:rotate-45 before:right-[1px] before:-translate-y-1/2"
+              ></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
