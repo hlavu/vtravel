@@ -11,11 +11,15 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Questrial&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="../dist/style.css" />
   </head>
   <body>
-    <div class="p-2 md:px-10 md:mb-10">
+    <div class="p-2 md:px-10">
       <div
         class="border-b-2 border-[#ddd] flex flex-row justify-between items-center"
       >
@@ -90,7 +94,9 @@
         </div>
       </div>
 
-      <h1 class="text-3xl py-4 sm:text-5xl sm:mb-6 md:text-7xl sm:pt-8">
+      <h1
+        class="text-3xl py-4 sm:text-5xl sm:mb-6 md:text-7xl sm:pt-8 md:py-10 text-right"
+      >
         Categories
       </h1>
       <div class="flex flex-col lg:flex-row gap-[10px] h-full">
@@ -143,15 +149,17 @@
       >
         View more
       </button>
-      <h1 class="text-3xl py-4 sm:text-5xl sm:mb-6 md:text-7xl sm:pt-8">
+      <h1
+        class="text-3xl py-4 sm:text-5xl sm:mb-6 md:text-7xl sm:pt-8 md:py-10"
+      >
         Popular tours
       </h1>
       <div class="flex lg:flex-row flex-col-reverse gap-5 md:gap-10">
         <div class="text-lg sm:text-xl basis-1/2">
-          <p class="font-semibold uppercase mb-4 md:text-2xl">
+          <p class="font-semibold uppercase mb-4 md:text-3xl">
             Bay of the Descending Dragons
           </p>
-          <p>
+          <p class="md:my-8">
             Famous for the mythical attractive scene reflecting its depiction in
             local folklore. As the age-old tale, Ha Long Bay was created by the
             descent of a mother dragon coming to protect the bay against a
@@ -187,6 +195,82 @@
           />
         </div>
       </div>
+
+      <h1
+        class="text-3xl py-4 sm:text-5xl sm:mb-6 md:text-7xl sm:pt-8 md:py-10 text-right"
+      >
+        Frequently asked questions
+      </h1>
+      <div class="md:flex lg:flex-row flex-col gap-5 md:gap-10 fqas">
+        <div class="basis-1/2">
+          <img
+            class="w-full h-full object-cover"
+            src="./assets/img/faqs.jpg"
+            alt=""
+          />
+        </div>
+        <ul class="basis-1/2">
+          <li
+            class="py-5 text-lg md:text-2xl border-t-2 border-[#ddd] cursor-pointer relative hover:opacity-70"
+          >
+            Are flights included in the tour price?
+            <i class="bx bx-chevron-down absolute right-3 text-3xl"></i>
+          </li>
+          <div class="text-lg md:text-2xl py-4 text-[#555] hidden">
+            Flights to the tour destination are not included in the trip price.
+            If you'd like help booking flights, please get in touch via phone to
+            request a quote.
+          </div>
+          <li
+            class="py-5 text-lg md:text-2xl border-t-2 border-[#ddd] cursor-pointer relative hover:opacity-70"
+          >
+            What type of luggage do you recommend I take?
+            <i class="bx bx-chevron-down absolute right-3 text-3xl"></i>
+          </li>
+          <div class="text-lg md:text-2xl py-4 text-[#555] hidden">
+            On most trips you will be required to carry your own luggage,
+            sometimes upstairs and on and off transport. We therefore recommend
+            you travel with a backpack.
+          </div>
+          <li
+            class="py-5 text-lg md:text-2xl border-t-2 border-[#ddd] cursor-pointer relative hover:opacity-70"
+          >
+            Can you provide me with a list of places we are staying at?
+            <i class="bx bx-chevron-down absolute right-3 text-3xl"></i>
+          </li>
+          <div class="text-lg md:text-2xl py-4 text-[#555] hidden">
+            We are able to provide information about numerous local businesses,
+            we often have a few places in each city that we can alternate our
+            groups between.
+          </div>
+          <li
+            class="py-5 text-lg md:text-2xl border-t-2 border-[#ddd] cursor-pointer relative hover:opacity-70"
+          >
+            Is tipping commonplace in other parts of the world?
+            <i class="bx bx-chevron-down absolute right-3 text-3xl"></i>
+          </li>
+          <div class="text-lg md:text-2xl py-4 text-[#555] hidden">
+            if you're happy with the service you received, providing a tip for
+            the leader - though not compulsory - is appropriate.
+          </div>
+          <li
+            class="py-5 text-lg md:text-2xl border-t-2 border-[#ddd] cursor-pointer relative hover:opacity-70"
+          >
+            What if my question isn’t answered here?
+            <i class="bx bx-chevron-down absolute right-3 text-3xl"></i>
+          </li>
+          <div class="text-lg md:text-2xl py-4 text-[#555] hidden">
+            Please contact us through this email address
+            <a
+              class="text-[#333] underline font-semibold"
+              href="mailto:vtravel@mail.com"
+            >
+              vtravel@mail.com
+            </a>
+          </div>
+        </ul>
+      </div>
     </div>
+    <script src="./app.js"></script>
   </body>
 </html>
