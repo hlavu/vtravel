@@ -542,32 +542,8 @@ h1 {
   bottom: -1rem;
 }
 
-.bottom-\[-100px\] {
-  bottom: -100px;
-}
-
 .top-1\/2 {
   top: 50%;
-}
-
-.-bottom-8 {
-  bottom: -2rem;
-}
-
-.-bottom-10 {
-  bottom: -2.5rem;
-}
-
-.-bottom-12 {
-  bottom: -3rem;
-}
-
-.-bottom-14 {
-  bottom: -3.5rem;
-}
-
-.-bottom-16 {
-  bottom: -4rem;
 }
 
 .my-\[3px\] {
@@ -578,6 +554,21 @@ h1 {
 .my-\[4px\] {
   margin-top: 4px;
   margin-bottom: 4px;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .mb-4 {
@@ -600,6 +591,14 @@ h1 {
   margin-top: 1.25rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -614,86 +613,6 @@ h1 {
 
 .h-full {
   height: 100%;
-}
-
-.h-auto {
-  height: auto;
-}
-
-.h-\[90\%\] {
-  height: 90%;
-}
-
-.h-\[95\%\] {
-  height: 95%;
-}
-
-.h-\[96\%\] {
-  height: 96%;
-}
-
-.h-\[80\%\] {
-  height: 80%;
-}
-
-.h-\[70\%\] {
-  height: 70%;
-}
-
-.h-\[75\%\] {
-  height: 75%;
-}
-
-.h-\[100\%\] {
-  height: 100%;
-}
-
-.max-h-\[496\.5px\] {
-  max-height: 496.5px;
-}
-
-.max-h-\[707\.5px\] {
-  max-height: 707.5px;
-}
-
-.max-h-\[500px\] {
-  max-height: 500px;
-}
-
-.max-h-\[400px\] {
-  max-height: 400px;
-}
-
-.max-h-\[200px\] {
-  max-height: 200px;
-}
-
-.max-h-\[600px\] {
-  max-height: 600px;
-}
-
-.max-h-\[550px\] {
-  max-height: 550px;
-}
-
-.max-h-\[570px\] {
-  max-height: 570px;
-}
-
-.max-h-\[590px\] {
-  max-height: 590px;
-}
-
-.max-h-\[620px\] {
-  max-height: 620px;
-}
-
-.max-h-\[630px\] {
-  max-height: 630px;
-}
-
-.max-h-\[635px\] {
-  max-height: 635px;
 }
 
 .w-7 {
@@ -740,6 +659,10 @@ h1 {
   flex-direction: column;
 }
 
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
 .items-center {
   align-items: center;
 }
@@ -764,12 +687,16 @@ h1 {
   gap: 10px;
 }
 
-.border-\[2px\] {
-  border-width: 2px;
+.gap-5 {
+  gap: 1.25rem;
 }
 
-.border-\[4px\] {
-  border-width: 4px;
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.border-\[2px\] {
+  border-width: 2px;
 }
 
 .border-b-2 {
@@ -808,19 +735,9 @@ h1 {
   border-color: rgb(221 221 221 / var(--tw-border-opacity));
 }
 
-.border-b-teal-950 {
-  --tw-border-opacity: 1;
-  border-bottom-color: rgb(4 47 46 / var(--tw-border-opacity));
-}
-
 .bg-\[\#b23a29\] {
   --tw-bg-opacity: 1;
   background-color: rgb(178 58 41 / var(--tw-bg-opacity));
-}
-
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 
 .object-cover {
@@ -828,22 +745,27 @@ h1 {
      object-fit: cover;
 }
 
-.p-\[20px\] {
-  padding: 20px;
+.object-center {
+  -o-object-position: center;
+     object-position: center;
+}
+
+.object-right {
+  -o-object-position: right;
+     object-position: right;
 }
 
 .p-2 {
   padding: 0.5rem;
 }
 
+.p-\[20px\] {
+  padding: 20px;
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 .py-1 {
@@ -859,6 +781,30 @@ h1 {
 .py-\[6px\] {
   padding-top: 6px;
   padding-bottom: 6px;
+}
+
+.py-\[8px\] {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.pr-1 {
+  padding-right: 0.25rem;
 }
 
 .text-center {
@@ -897,8 +843,21 @@ h1 {
   line-height: 1.75rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .text-\[\#B23A29\] {
@@ -909,10 +868,6 @@ h1 {
 .text-\[\#fff\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.opacity-50 {
-  opacity: 0.5;
 }
 
 .opacity-70 {
@@ -988,12 +943,12 @@ h1 {
   color: rgb(178 58 41 / var(--tw-text-opacity));
 }
 
-.hover\:opacity-50:hover {
-  opacity: 0.5;
-}
-
 .hover\:opacity-100:hover {
   opacity: 1;
+}
+
+.hover\:opacity-50:hover {
+  opacity: 0.5;
 }
 
 @media (min-width: 640px) {
@@ -1023,9 +978,24 @@ h1 {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
 }
 
 @media (min-width: 768px) {
+  .md\:my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
   .md\:mb-10 {
     margin-bottom: 2.5rem;
   }
@@ -1050,17 +1020,39 @@ h1 {
     gap: 2.5rem;
   }
 
-  .md\:p-10 {
-    padding: 2.5rem;
-  }
-
   .md\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
 
+  .md\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .md\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
   .md\:pb-6 {
     padding-bottom: 1.5rem;
+  }
+
+  .md\:pb-8 {
+    padding-bottom: 2rem;
+  }
+
+  .md\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .md\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .md\:pb-4 {
+    padding-bottom: 1rem;
   }
 
   .md\:text-3xl {
@@ -1072,45 +1064,14 @@ h1 {
     font-size: 4.5rem;
     line-height: 1;
   }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 @media (min-width: 1024px) {
-  .lg\:-bottom-16 {
-    bottom: -4rem;
-  }
-
-  .lg\:-bottom-14 {
-    bottom: -3.5rem;
-  }
-
-  .lg\:-bottom-6 {
-    bottom: -1.5rem;
-  }
-
-  .lg\:-bottom-8 {
-    bottom: -2rem;
-  }
-
-  .lg\:-bottom-10 {
-    bottom: -2.5rem;
-  }
-
-  .lg\:-bottom-12 {
-    bottom: -3rem;
-  }
-
-  .lg\:-bottom-\[72px\] {
-    bottom: -72px;
-  }
-
-  .lg\:bottom-\[-72px\] {
-    bottom: -72px;
-  }
-
-  .lg\:bottom-\[-82px\] {
-    bottom: -82px;
-  }
-
   .lg\:my-0 {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -1120,12 +1081,16 @@ h1 {
     margin-top: 5rem;
   }
 
-  .lg\:h-\[500px\] {
-    height: 500px;
+  .lg\:mb-8 {
+    margin-bottom: 2rem;
   }
 
-  .lg\:max-h-\[635px\] {
-    max-height: 635px;
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:h-\[500px\] {
+    height: 500px;
   }
 
   .lg\:basis-2\/5 {
@@ -1151,27 +1116,16 @@ h1 {
   .lg\:pr-3 {
     padding-right: 0.75rem;
   }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 1280px) {
   .xl\:-bottom-10 {
     bottom: -2.5rem;
-  }
-
-  .xl\:max-h-\[707\.5px\] {
-    max-height: 707.5px;
-  }
-
-  .xl\:max-h-\[800px\] {
-    max-height: 800px;
-  }
-
-  .xl\:max-h-\[635px\] {
-    max-height: 635px;
-  }
-
-  .xl\:max-h-\[1000px\] {
-    max-height: 1000px;
   }
 
   .xl\:w-1\/2 {

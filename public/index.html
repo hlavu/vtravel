@@ -22,7 +22,7 @@
         <span class="text-2xl font-dancing py-1 font-bold md:text-3xl">
           Vtravel
         </span>
-        <ul class="md:flex md:flex-row gap-8 py-[6px] hidden">
+        <ul class="md:flex md:flex-row gap-8 py-[8px] hidden">
           <li
             class="ml-auto cursor-pointer py-1 align-middle text-lg h-full hover:text-[#b23a29] transition-all"
           >
@@ -52,12 +52,12 @@
       </div>
 
       <h1
-        class="text-3xl py-2 sm:text-5xl sm:mb-6 md:text-7xl sm:pt-8 md:pb-6 text-center"
+        class="text-3xl py-4 sm:text-5xl sm:mb-6 md:text-7xl sm:pt-8 md:py-10 text-center"
       >
         Things to do in Vietnam
       </h1>
       <div class="flex flex-col gap-4 md:flex-row lg:gap-20 md:gap-10">
-        <div class="basis-full lg:h-[500px] lg:basis-2/5">
+        <div class="basis-full items-stretch lg:basis-2/5">
           <img
             class="object-cover h-full"
             src="./assets/img/lantern1.jpg"
@@ -65,8 +65,8 @@
           />
         </div>
         <div class="lg:basis-3/5 w-full flex flex-col justify-between">
-          <p class="text-[16px] mb-4 xl:w-1/2 sm:text-lg">
-            A long, narrow nation shaped like the letter S in Southeast Asia,
+          <p class="text-lg mb-4 lg:mb-8 xl:w-1/2 lg:text-xl">
+            A long, narrow nation shaped like the letter .S: in Southeast Asia,
             home to most of the country's people and provide fertile ground to
             grow rice and many other crops...
           </p>
@@ -80,7 +80,7 @@
           </div>
           <a
             href="#"
-            class="text-lg sm:text-2xl my-[4px] lg:mt-20 text-[#B23A29] relative"
+            class="text-lg sm:text-2xl my-[4px] mt-5 lg:mt-20 text-[#B23A29] relative"
             >Book a tour
             <span
               before=""
@@ -90,14 +90,16 @@
         </div>
       </div>
 
-      <h1 class="text-3xl py-2 sm:text-5xl sm:mb-6 md:text-7xl sm:pt-8 md:pb-6">
+      <h1 class="text-3xl py-4 sm:text-5xl sm:mb-6 md:text-7xl sm:pt-8">
         Categories
       </h1>
       <div class="flex flex-col lg:flex-row gap-[10px] h-full">
         <div class="basis-1/3 flex flex-col gap-[10px] h-full">
           <div class="p-[20px] border-[2px] border-[#ddd]">
             <img src="./assets/img/show.jpg" alt="" />
-            <a href="#" class="text-xl text-[#B23A29] relative -bottom-4"
+            <a
+              href="#"
+              class="text-lg sm:text-2xl text-[#B23A29] relative -bottom-4"
               >Shows
               <span
                 before=""
@@ -107,7 +109,9 @@
           </div>
           <div class="p-[20px] border-[2px] border-[#ddd]">
             <img src="./assets/img/tour.jpg" alt="" />
-            <a href="#" class="text-xl text-[#B23A29] relative -bottom-4"
+            <a
+              href="#"
+              class="text-lg sm:text-2xl text-[#B23A29] relative -bottom-4"
               >Food tours
               <span
                 before=""
@@ -125,7 +129,7 @@
           />
           <a
             href="#"
-            class="text-xl text-[#B23A29] relative -bottom-4 xl:-bottom-10"
+            class="text-lg sm:text-2xl text-[#B23A29] relative -bottom-4 xl:-bottom-10"
             >Architecture
             <span
               before=""
@@ -139,6 +143,50 @@
       >
         View more
       </button>
+      <h1 class="text-3xl py-4 sm:text-5xl sm:mb-6 md:text-7xl sm:pt-8">
+        Popular tours
+      </h1>
+      <div class="flex lg:flex-row flex-col-reverse gap-5 md:gap-10">
+        <div class="text-lg sm:text-xl basis-1/2">
+          <p class="font-semibold uppercase mb-4 md:text-2xl">
+            Bay of the Descending Dragons
+          </p>
+          <p>
+            Famous for the mythical attractive scene reflecting its depiction in
+            local folklore. As the age-old tale, Ha Long Bay was created by the
+            descent of a mother dragon coming to protect the bay against a
+            fearsome invasion. The dragons spat emeralds from their mouths
+            towards enemies and that those jewels transformed into the jewel
+            like islands and islets.
+          </p>
+          <p class="mt-4">Ages: 0-99</p>
+          <p class="mt-1">Duration: 3h00</p>
+          <p class="mt-1">Start time: 8:00 am</p>
+          <p class="mt-1">Language: English</p>
+
+          <p class="my-4 md:my-8">
+            <span class="text-xl font-bold pr-1 sm:text-3xl font-dancing"
+              >$50.00</span
+            >/per adult
+          </p>
+          <a
+            href="#"
+            class="text-lg sm:text-2xl my-[4px] mt-5 lg:mt-20 text-[#B23A29] relative"
+            >Reserve
+            <span
+              before=""
+              class="inline-block w-[35px] sm:w-[70px] ml-[25px] border-b-2 border-[#b23a29] absolute top-1/2 before:content-[attr(before)] before:w-3 before:h-3 before:border-t-[3px] before:border-r-[3px] before:border-[#b23a29] before:absolute before:rotate-45 before:right-[1px] before:-translate-y-1/2"
+            ></span>
+          </a>
+        </div>
+        <div class="basis-1/2">
+          <img
+            class="object-cover h-full object-right"
+            src="./assets/img/halongbay.jpg"
+            alt=""
+          />
+        </div>
+      </div>
     </div>
   </body>
 </html>
